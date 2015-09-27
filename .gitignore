@@ -2,6 +2,7 @@
 /vendor
 /public/img/avatars
 /public/system/Items/*
+auth.json
 composer.phar
 composer.lock
 .env.local.php
