@@ -1,4 +1,4 @@
-#Ottawa Swap and Buy
+#My Market Ottawa
 ###Php5 Modules Needed
 * php5-mcrypt
 * php5-gd
