@@ -1,7 +1,7 @@
 <?php
 return [
-    'APP_ENV' => 'local',
-    'DB_HOST' => 'localhost',
+    'APP_ENV' => '',
+    'DB_HOST' => '',
     'DB_NAME' => '',
     'DB_USER' => '',
     'DB_PASS' => '',
