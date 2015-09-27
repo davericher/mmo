@@ -1,0 +1,14 @@
+/bootstrap/compiled.php
+/vendor
+/public/img/avatars
+/public/system/Items/*
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+.DS_Store
+Thumbs.db
+public/system/Items/
+public/system/userphotos/
+public/system/userimages/
+public/system/itemimages/

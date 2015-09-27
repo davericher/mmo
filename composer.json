@@ -1,0 +1,61 @@
+{
+	"name": "ir0ny/Sudbury Swap and buy",
+	"description": "Sudbury Swap and buy.",
+	"keywords": ["ecom", "sudbury"],
+	"license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ir0ny1/stapler"
+        }
+    ],
+	"require": {
+		"laravel/framework": "4.2.9",
+		"laravelbook/ardent": "2.4.*",
+		"zizaco/entrust": "1.*",
+		"patricktalmadge/bootstrapper": "4.1.*",
+		"davejamesmiller/laravel-breadcrumbs": "2.*",
+        	"anahkiasen/former": "dev-master",
+        	"CodeSleeve/stapler": "dev-master",
+        	"barryvdh/laravel-vendor-cleanup": "1.*"
+
+	},
+	"require-dev": {
+
+	  },
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		],
+		"psr-4" : {
+			"Irony\\" : "app/Irony"
+		},
+		"files" : ["app/Irony/helpers.php"]
+		
+
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+		         "php artisan vendor-cleanup",
+            		"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+         	   	"php artisan vendor-cleanup",
+            		"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
