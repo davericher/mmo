@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => getenv('emailFrom.address'),
+	'from' => [ 'address' => getenv('emailFrom.address'), 'name' => getenv('emailFrom.name')],
 
 	/*
 	|--------------------------------------------------------------------------
