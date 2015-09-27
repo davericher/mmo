@@ -12,7 +12,7 @@
             </dt>
             <dd class="dl-content medium-small">
             Are you interested in how the site is doing? These numbers will help you measure our progress
-            as we grow the only community made, maintained, and moderated second hand site in Sudbury! Check back
+            as we grow the only community made, maintained, and moderated second hand site in Ottawa! Check back
             hourly and watch the numbers reach the moon!
             </dd>
             <dd class="dl-footer small weight-mid">
