@@ -10,7 +10,7 @@
         }
     ],
 	"require": {
-		"laravel/framework": "4.2.9",
+		"laravel/framework": "4.2.*",
 		"laravelbook/ardent": "2.4.*",
 		"zizaco/entrust": "1.*",
 		"patricktalmadge/bootstrapper": "4.1.*",
