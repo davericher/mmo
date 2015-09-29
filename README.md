@@ -1,4 +1,5 @@
 #My Market Ottawa
+## A Laravel 4, Nginx, MySql, Memcached labour of love
 ###Php5 Modules Needed
 * php5-mcrypt
 * php5-gd
