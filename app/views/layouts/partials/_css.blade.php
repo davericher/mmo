@@ -1,3 +1,9 @@
+{{-- Fork Me On Github --}}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+<![endif]-->
+
 {{-- Normalize.css --}}
 {{ HTML::style('css/vendor/normalize.css')}}
 {{-- Roboto Font --}}

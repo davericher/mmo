@@ -17,6 +17,11 @@
 @include('layouts.partials._bodyCompat')
 @section('modals')
 @show
+<div class="github-fork-ribbon-wrapper right">
+   	<div class="github-fork-ribbon">
+            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
+        </div>
+</div>
 <div id="siteWrapper" class="container">
     @include('layouts.partials._nav')
     @include('layouts.partials._sessionSection')
