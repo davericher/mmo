@@ -20,8 +20,7 @@ return array(
 	"token" => "This password reset token is invalid.",
 
 	"sent" => "Password reminder sent!",
-
-    "subject" => "Sudbury Swap and Buy Password Reminder",
+	"subject" => "My Market Ottawa password reminder",
 
     "error" =>  "Something has gone wrong"
 

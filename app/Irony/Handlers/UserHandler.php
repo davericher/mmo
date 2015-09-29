@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Mail;
 
-use Irony\Entities\User;
-
 class UserHandler {
 
 
@@ -24,7 +22,7 @@ class UserHandler {
 			// use Mail::send function to send email passing the data and using the $user variable in the closure
 			Mail::send('emails.auth.confirmation', $data, function($message) use ($userEmail)
 			{
-			  $message->to($userEmail['email'], $userEmail['username'])->subject('Sudburies swap and buy confirmation email');
+				$message->to($userEmail['email'], $userEmail['username'])->subject('My Market Ottawa confirmation');
 			});
 	}
 

@@ -1,7 +1,11 @@
 {
-	"name": "ir0ny/Sudbury Swap and buy",
-	"description": "Sudbury Swap and buy.",
-	"keywords": ["ecom", "sudbury"],
+  "name": "ir0ny/mmo",
+  "description": "My Market Ottawa",
+  "keywords": [
+	"second hand",
+	"ottawa",
+	"laravel 4"
+  ],
 	"license": "MIT",
     "repositories": [
         {
